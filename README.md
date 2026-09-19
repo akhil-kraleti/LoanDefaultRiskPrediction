@@ -6,15 +6,15 @@
 ---
 
 ## 📌 Table of Contents
-- [📂 Project Overview](#-project-overview)
-- [📊 Dataset Information](#-dataset-information)
-- [📁 Project Structure](#-project-structure)
-- [📈 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
-- [⚙️ Data Preprocessing & Feature Engineering](#️-data-preprocessing--feature-engineering)
+- [📂 Project Overview](#-project-overview).
+- [📊 Dataset Information](#-dataset-information).
+- [📁 Project Structure](#-project-structure).
+- [📈 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda).
+- [⚙️ Data Preprocessing & Feature Engineering](#️-data-preprocessing--feature-engineering).
 - [📝 Model Evaluation](#-Model-Evaluation).
-- [🤖 Model Development](#-model-development)
-- [📊 Sample Inference Code](#-sample-inference-code)
-- [🛠️ Tech Stack](#️-tech-stack)
+- [🤖 Model Development](#-model-development).
+- [📊 Sample Inference Code](#-sample-inference-code).
+- [🛠️ Tech Stack](#️-tech-stack).
 
 
 ---
