@@ -53,7 +53,6 @@ The dataset includes financial, demographic, and historical credit features for 
 
 ## 📁 Project Structure
 
-```text
 ├── LoanDefaultRiskPrediction.ipynb   # Main Jupyter Notebook with EDA, preprocessing, and modeling
 ├── dataset.csv                       # Raw and processed dataset files                       
 └──README.md                          # Project documentation                
