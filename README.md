@@ -15,6 +15,7 @@
 - [🤖 Model Development](#-model-development).
 - [📊 Sample Inference Code](#-sample-inference-code).
 - [🛠️ Tech Stack](#️-tech-stack).
+- [🔚 Conclusion](#-Conclusion).
 
 
 ---
@@ -174,5 +175,12 @@ print(f"Default Probability: {default_probability:.2%}")
 - **Development Environment:** JupyterLab / Jupyter Notebook
 
 ---
+
+## 🔚 Conclusion
+
+- **Effective Credit Risk Modeling:** The Logistic Regression model demonstrates strong capability in identifying potential loan defaults, achieving an overall accuracy of **86%** and an impressive **ROC-AUC score of 0.9052**.
+- **Minimized Financial Risk:** By utilizing balanced class weighting (`class_weight='balanced'`), the model achieved a **92% recall rate** for high-risk applicants, significantly mitigating financial loss by catching the vast majority of potential default cases.
+- **Data-Driven Strategy:** Demographic and financial indicators—specifically income relative to loan amount, credit history length, and loan interest rates—serve as crucial predictive features for financial institutions evaluating borrower risk.
+- **Future Improvements:** Future iterations of this pipeline could benefit from exploring non-linear algorithms (such as XGBoost or Random Forests), handling class imbalance via SMOTE, or integrating additional credit bureau data features.
 
 
