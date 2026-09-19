@@ -11,6 +11,7 @@
 - [📁 Project Structure](#-project-structure)
 - [📈 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
 - [⚙️ Data Preprocessing & Feature Engineering](#️-data-preprocessing--feature-engineering)
+- [📝 Model Evaluation](#-Model-Evaluation).
 - [🤖 Model Development](#-model-development)
 - [📊 Sample Inference Code](#-sample-inference-code)
 - [🛠️ Tech Stack](#️-tech-stack)
@@ -90,6 +91,33 @@ To prepare the dataset for optimal model performance, the following preprocessin
 1. **Train/Test Split:** Partitioned data into training and testing sets to evaluate unseen risk profiles.
 2. **Model Training:** Trained predictive classifiers using standardized applicant features.
 3. **Inference Pipeline:** Built a robust input pipeline capable of parsing raw applicant data and predicting risk outcomes.
+
+---
+
+## 📝 Model Evaluation
+
+The model performance was evaluated on the test set using standard classification metrics:
+
+- **Accuracy Score:** **0.86 (86%)**
+- **ROC-AUC Score:** **0.9052**
+
+### Classification Report
+
+| Class | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
+| **0 (Approved / Low Risk)** | 0.98 | 0.84 | 0.91 | 51 |
+| **1 (Default / High Risk)** | 0.58 | 0.92 | 0.71 | 12 |
+| **Accuracy** | | | **0.86** | **63** |
+| **Macro Average** | 0.78 | 0.88 | 0.81 | 63 |
+| **Weighted Average** | 0.90 | 0.86 | 0.87 | 63 |
+
+---
+
+### Key Evaluation Takeaways
+
+- **High Recall for High Risk (0.92):** Using `class_weight='balanced'` helped the model successfully identify **92%** of default cases (`Class 1`), minimizing the risk of missing high-risk applicants.
+- **Strong Precision for Low Risk (0.98):** **98%** of applicants classified as low risk (`Class 0`) were genuine non-defaulters.
+- **Excellent Distinction (ROC-AUC = 0.9052):** Demonstrates strong overall discriminatory capability between default and non-default applicants.
 
 ---
 
