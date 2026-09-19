@@ -65,6 +65,7 @@ The dataset includes financial, demographic, and historical credit features for 
 Before building the predictive model, extensive EDA was conducted to understand feature distributions and correlations:
 
 - **Correlation Heatmap:** Examined numerical relationships between income, loan amount, age, and loan default status.
+- ![Pairplot](images/pairplot.png)
 - **Feature Distribution Histograms:** Analyzed skewness across financial features such as `person_income` and `loan_amnt`.
 - **Key Insights:** Raw income and loan amounts exhibit right-skewed distributions, requiring normalization prior to model training.
 
