@@ -14,7 +14,7 @@
 - [🤖 Model Development](#-model-development)
 - [📊 Sample Inference Code](#-sample-inference-code)
 - [🛠️ Tech Stack](#️-tech-stack)
-- [📜 License](#-license)
+
 
 ---
 
@@ -148,8 +148,4 @@ print(f"Default Probability: {default_probability:.2%}")
 
 ---
 
-## 📜 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-```
